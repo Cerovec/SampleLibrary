@@ -79,24 +79,6 @@ namespace iOSSimpleBinding
 		void DidStart ();
 	}
 
-	// @interface PPScanner : NSObject
-	[BaseType (typeof(NSObject))]
-	interface PPScanner
-	{
-		// -(UIViewController<PPScannerController> *)controller;
-		[Export ("controller")]
-//		[Verify (MethodToProperty)]
-		PPScannerController Controller { get; }
-
-		// -(void)setDelegate:(id<PPScannerDelegate>)delegate;
-		[Export ("setDelegate:")]
-		void SetDelegate (PPScannerDelegate @delegate);
-
-		// -(void)run;
-		[Export ("run")]
-		void Run ();
-	}
-
 	// @protocol PPScannerController <NSObject>
 	[Protocol, Model]
 	[BaseType (typeof(NSObject))]
@@ -106,6 +88,32 @@ namespace iOSSimpleBinding
 		[Abstract]
 		[Export ("update")]
 		void Update ();
+	}
+
+	interface IPPScannerController {}
+
+	// @interface PPScannerViewController : UIViewController <PPScannerController>
+	[BaseType (typeof(UIViewController))]
+	interface PPScannerViewController : PPScannerController
+	{
+	}
+
+	// @interface PPScanner : NSObject
+	[BaseType (typeof(NSObject))]
+	interface PPScanner
+	{
+		// -(PPScannerViewController *)controller;
+		[Export ("controller")]
+//		[Verify (MethodToProperty)]
+		PPScannerViewController Controller { get; }
+
+		// -(void)setDelegate:(id<PPScannerDelegate>)delegate;
+		[Export ("setDelegate:")]
+		void SetDelegate (PPScannerDelegate @delegate);
+
+		// -(void)run;
+		[Export ("run")]
+		void Run ();
 	}
 }
 

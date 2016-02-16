@@ -17,9 +17,21 @@ namespace iOSSimpleSample
 			base.ViewDidLoad ();
 			// Perform any additional setup after loading the view, typically from a nib.
 
+
+
+
+
+		}
+
+		public override void ViewDidAppear (bool animated)
+		{
+			base.ViewDidAppear (animated);
+
 			PPScanner p = new PPScanner ();
 
-			PPScannerController controller = p.Controller;
+			PPScannerViewController controller = p.Controller;
+
+			controller.Update ();
 
 			PPScannerDelegate pd = new MyDelegate ();
 
@@ -27,6 +39,7 @@ namespace iOSSimpleSample
 
 			p.Run ();
 
+			PresentViewController (controller, true, null);
 		}
 
 		public override void DidReceiveMemoryWarning ()
@@ -39,14 +52,14 @@ namespace iOSSimpleSample
 
 			public override void DidStart ()
 			{
-				Debug.WriteLine ("I am here");
+				Debug.WriteLine ("I am here DidStart");
 			}
 
 
 			#region implemented abstract members of PPScannerDelegate
 			public override void DidFinish ()
 			{
-				throw new NotImplementedException ();
+				Debug.WriteLine ("I am here DidFinish");
 			}
 			#endregion
 		}
