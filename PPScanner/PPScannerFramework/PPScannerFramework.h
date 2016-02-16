@@ -6,7 +6,6 @@
 //  Copyright © 2016 MicroBlink. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 #import "PPScanner.h"
 #import "PPScannerDelegate.h"
+#import "PPScannerController.h"

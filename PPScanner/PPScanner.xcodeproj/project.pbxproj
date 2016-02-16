@@ -11,6 +11,9 @@
 		187BCA4E1C732C6700049370 /* PPScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 187BCA071C7329F500049370 /* PPScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		187BCA4F1C732C6700049370 /* PPScannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 187BCA131C732A7200049370 /* PPScannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		187BCA571C732F5C00049370 /* PPScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BCA091C7329F500049370 /* PPScanner.m */; };
+		187BCA591C733A7900049370 /* PPScannerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 187BCA581C733A7900049370 /* PPScannerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187BCA5C1C733B3D00049370 /* PPViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 187BCA5A1C733B3D00049370 /* PPViewController.h */; };
+		187BCA5D1C733B3D00049370 /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BCA5B1C733B3D00049370 /* PPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		187BCA461C732C5E00049370 /* PPScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		187BCA481C732C5E00049370 /* PPScannerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPScannerFramework.h; sourceTree = "<group>"; };
 		187BCA4A1C732C5E00049370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187BCA581C733A7900049370 /* PPScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPScannerController.h; sourceTree = "<group>"; };
+		187BCA5A1C733B3D00049370 /* PPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPViewController.h; sourceTree = "<group>"; };
+		187BCA5B1C733B3D00049370 /* PPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 				187BCA071C7329F500049370 /* PPScanner.h */,
 				187BCA091C7329F500049370 /* PPScanner.m */,
 				187BCA131C732A7200049370 /* PPScannerDelegate.h */,
+				187BCA581C733A7900049370 /* PPScannerController.h */,
+				187BCA5A1C733B3D00049370 /* PPViewController.h */,
+				187BCA5B1C733B3D00049370 /* PPViewController.m */,
 			);
 			path = PPScanner;
 			sourceTree = "<group>";
@@ -77,8 +86,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				187BCA491C732C5E00049370 /* PPScannerFramework.h in Headers */,
+				187BCA591C733A7900049370 /* PPScannerController.h in Headers */,
 				187BCA4E1C732C6700049370 /* PPScanner.h in Headers */,
 				187BCA4F1C732C6700049370 /* PPScannerDelegate.h in Headers */,
+				187BCA5C1C733B3D00049370 /* PPViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187BCA5D1C733B3D00049370 /* PPViewController.m in Sources */,
 				187BCA571C732F5C00049370 /* PPScanner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -29,7 +29,9 @@
 - (void)viewDidAppear:(BOOL)animated {
     PPScanner *scanner = [[PPScanner alloc] init];
 
-    [scanner setDelegate:self];
+    UIViewController<PPScannerController> *controller = [scanner controllerWithDelegate:self];
+
+    [controller update];
 
     [scanner run];
 }

@@ -7,13 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "PPScannerDelegate.h"
+
+@protocol PPScannerController;
 
 @interface PPScanner : NSObject
 
 - (instancetype)init;
 
-- (void)setDelegate:(id<PPScannerDelegate>)delegate;
+- (UIViewController<PPScannerController>*)controllerWithDelegate:(id<PPScannerDelegate>)delegate;
 
 - (void)run;
 

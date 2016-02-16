@@ -7,6 +7,8 @@
 //
 
 #import "PPScanner.h"
+#import "PPViewController.h"
+#import "PPScannerController.h"
 
 @interface PPScanner ()
 
@@ -24,8 +26,10 @@
     return self;
 }
 
-- (void)setDelegate:(id<PPScannerDelegate>)delegate {
+- (UIViewController<PPScannerController> *)controllerWithDelegate:(id<PPScannerDelegate>)delegate {
     _delegate = delegate;
+
+    return [[PPViewController alloc] init];
 }
 
 - (void)run {
