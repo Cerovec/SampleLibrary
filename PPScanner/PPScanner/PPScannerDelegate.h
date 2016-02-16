@@ -10,10 +10,12 @@
 
 @protocol PPScannerDelegate <NSObject>
 
+@required
+
+- (void)didFinish;
+
 @optional
 
 - (void)didStart;
-
-- (void)didFinish;
 
 @end
