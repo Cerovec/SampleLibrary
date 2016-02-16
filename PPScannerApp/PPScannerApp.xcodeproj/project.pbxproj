@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187BCA221C732B5500049370 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BCA211C732B5500049370 /* main.m */; };
+		187BCA251C732B5500049370 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BCA241C732B5500049370 /* AppDelegate.m */; };
+		187BCA281C732B5500049370 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BCA271C732B5500049370 /* ViewController.m */; };
+		187BCA2B1C732B5500049370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187BCA291C732B5500049370 /* Main.storyboard */; };
+		187BCA2D1C732B5500049370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187BCA2C1C732B5500049370 /* Assets.xcassets */; };
+		187BCA301C732B5500049370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187BCA2E1C732B5500049370 /* LaunchScreen.storyboard */; };
+		187BCA561C732F0F00049370 /* libPPScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 187BCA3C1C732B6000049370 /* libPPScanner.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187BCA3B1C732B6000049370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187BCA371C732B6000049370 /* PPScanner.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 187BCA041C7329F500049370;
+			remoteInfo = PPScanner;
+		};
+		187BCA3D1C732B6900049370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187BCA371C732B6000049370 /* PPScanner.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 187BCA451C732C5E00049370;
+			remoteInfo = PPScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187BCA1D1C732B5500049370 /* PPScannerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPScannerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187BCA211C732B5500049370 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187BCA231C732B5500049370 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187BCA241C732B5500049370 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187BCA261C732B5500049370 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187BCA271C732B5500049370 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187BCA2A1C732B5500049370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187BCA2C1C732B5500049370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187BCA2F1C732B5500049370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187BCA311C732B5500049370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187BCA371C732B6000049370 /* PPScanner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PPScanner.xcodeproj; path = ../PPScanner/PPScanner.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187BCA1A1C732B5500049370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187BCA561C732F0F00049370 /* libPPScanner.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187BCA141C732B5500049370 = {
+			isa = PBXGroup;
+			children = (
+				187BCA1F1C732B5500049370 /* PPScannerApp */,
+				187BCA371C732B6000049370 /* PPScanner.xcodeproj */,
+				187BCA1E1C732B5500049370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187BCA1E1C732B5500049370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187BCA1D1C732B5500049370 /* PPScannerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187BCA1F1C732B5500049370 /* PPScannerApp */ = {
+			isa = PBXGroup;
+			children = (
+				187BCA231C732B5500049370 /* AppDelegate.h */,
+				187BCA241C732B5500049370 /* AppDelegate.m */,
+				187BCA261C732B5500049370 /* ViewController.h */,
+				187BCA271C732B5500049370 /* ViewController.m */,
+				187BCA291C732B5500049370 /* Main.storyboard */,
+				187BCA2C1C732B5500049370 /* Assets.xcassets */,
+				187BCA2E1C732B5500049370 /* LaunchScreen.storyboard */,
+				187BCA311C732B5500049370 /* Info.plist */,
+				187BCA201C732B5500049370 /* Supporting Files */,
+			);
+			path = PPScannerApp;
+			sourceTree = "<group>";
+		};
+		187BCA201C732B5500049370 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187BCA211C732B5500049370 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187BCA381C732B6000049370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187BCA3C1C732B6000049370 /* libPPScanner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187BCA1C1C732B5500049370 /* PPScannerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187BCA341C732B5500049370 /* Build configuration list for PBXNativeTarget "PPScannerApp" */;
+			buildPhases = (
+				187BCA191C732B5500049370 /* Sources */,
+				187BCA1A1C732B5500049370 /* Frameworks */,
+				187BCA1B1C732B5500049370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187BCA3E1C732B6900049370 /* PBXTargetDependency */,
+			);
+			name = PPScannerApp;
+			productName = PPScannerApp;
+			productReference = 187BCA1D1C732B5500049370 /* PPScannerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187BCA151C732B5500049370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MicroBlink;
+				TargetAttributes = {
+					187BCA1C1C732B5500049370 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 187BCA181C732B5500049370 /* Build configuration list for PBXProject "PPScannerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187BCA141C732B5500049370;
+			productRefGroup = 187BCA1E1C732B5500049370 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 187BCA381C732B6000049370 /* Products */;
+					ProjectRef = 187BCA371C732B6000049370 /* PPScanner.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				187BCA1C1C732B5500049370 /* PPScannerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		187BCA3C1C732B6000049370 /* libPPScanner.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPPScanner.a;
+			remoteRef = 187BCA3B1C732B6000049370 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187BCA1B1C732B5500049370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187BCA301C732B5500049370 /* LaunchScreen.storyboard in Resources */,
+				187BCA2D1C732B5500049370 /* Assets.xcassets in Resources */,
+				187BCA2B1C732B5500049370 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187BCA191C732B5500049370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187BCA281C732B5500049370 /* ViewController.m in Sources */,
+				187BCA251C732B5500049370 /* AppDelegate.m in Sources */,
+				187BCA221C732B5500049370 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187BCA3E1C732B6900049370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PPScanner;
+			targetProxy = 187BCA3D1C732B6900049370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187BCA291C732B5500049370 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187BCA2A1C732B5500049370 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187BCA2E1C732B5500049370 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187BCA2F1C732B5500049370 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187BCA321C732B5500049370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187BCA331C732B5500049370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187BCA351C732B5500049370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PPScannerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microblink.PPScannerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187BCA361C732B5500049370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PPScannerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microblink.PPScannerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187BCA181C732B5500049370 /* Build configuration list for PBXProject "PPScannerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187BCA321C732B5500049370 /* Debug */,
+				187BCA331C732B5500049370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187BCA341C732B5500049370 /* Build configuration list for PBXNativeTarget "PPScannerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187BCA351C732B5500049370 /* Debug */,
+				187BCA361C732B5500049370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187BCA151C732B5500049370 /* Project object */;
+}
