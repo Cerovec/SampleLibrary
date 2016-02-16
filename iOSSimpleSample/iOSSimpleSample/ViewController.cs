@@ -18,7 +18,16 @@ namespace iOSSimpleSample
 			// Perform any additional setup after loading the view, typically from a nib.
 
 
+			UIButton button = new UIButton ();
 
+			View.AddSubview (button);
+
+
+		}
+
+		public override void ViewWillAppear (bool animated)
+		{
+			base.ViewWillAppear (animated);
 
 
 		}
