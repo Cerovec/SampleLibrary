@@ -26,10 +26,12 @@
     return self;
 }
 
-- (UIViewController<PPScannerController> *)controllerWithDelegate:(id<PPScannerDelegate>)delegate {
-    _delegate = delegate;
-
+- (UIViewController<PPScannerController> *)controller {
     return [[PPViewController alloc] init];
+}
+
+- (void)setDelegate:(id<PPScannerDelegate>)delegate {
+    _delegate = delegate;
 }
 
 - (void)run {

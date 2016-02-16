@@ -16,7 +16,9 @@
 
 - (instancetype)init;
 
-- (UIViewController<PPScannerController>*)controllerWithDelegate:(id<PPScannerDelegate>)delegate;
+- (UIViewController<PPScannerController>*)controller;
+
+- (void)setDelegate:(id<PPScannerDelegate>)delegate;
 
 - (void)run;
 
